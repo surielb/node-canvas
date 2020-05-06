@@ -35,11 +35,9 @@
   "binary": {
     "module_name": "canvas",
     "module_path": "build/Release",
-    "host": "https://nick-nack.s3.eu-west-1.amazonaws.com/assets/canvas/",
+    "host": "https://github.com/node-gfx/node-canvas-prebuilt/releases/download/",
     "remote_path": "v{version}",
-    "old":"{module_name}-v{version}-node-v79-{platform}-{libc}-{arch}.tar.gz",
-    
-    "package_name": "canvas-v2.6.1-node-v79-linux-glibc-x64.tar.gz"
+    "package_name": "{module_name}-v{version}-node-v64-{platform}-{libc}-{arch}.tar.gz"
   },
   "files": [
     "binding.gyp",
