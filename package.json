@@ -35,7 +35,7 @@
   "binary": {
     "module_name": "canvas",
     "module_path": "build/Release",
-    "host": "https://storage.googleapis.com/nick-nack.appspot.com/assets/canvas/",
+    "host": "https://nick-nack.s3.eu-west-1.amazonaws.com/assets/canvas/",
     "remote_path": "v{version}",
     "old":"{module_name}-v{version}-node-v79-{platform}-{libc}-{arch}.tar.gz",
     
